@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>developersamiun.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Kdam+Thmor+Pro&family=Satisfy&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <!---menu-->
+ 
+  <!---menu-->
+  <section>
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12 text-center ">
+                <!-- Example single danger button -->
+<!-- Example split danger button -->
+<section class="menu">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 ">
+                <div class="logo"><span>< ></span>Developer samiun<span>< ></span></div>
+            </div>
+        <div class="col-md-6">
+            <ul class="menulist">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="service.html">Our Services</a></li>
+            <li><a href="portfolio.html">Portfolio Section</a></li>
+       
+       
+           
+        </ul>
+    </div>  
+        </div>
+    </div>
+</section>
+                <!---menu-->
+           
+    <!--banner start-->
+    <section>
+        <div class="container">
+            <div class="row">
+             <div class="col-md-12 text-center">
+                <div class="banner-text">
+                    <img class="image img-thumbnail rounded mx-auto d-block"   src="./1624332118557.jpg" alt="">
+                    <h2 class="bh text-center"> Welcome to my Website</h2>
+                    
+<button class="btn-info" onclick="typeWriter()">Click to know about me</button>
+
+<p id="demo"></p>
+               
+                </div>
+             </div>
+            </div>
+        </div>
+    </section>
+    <!---banner end-->
+ <div class="col-md-12">
+    <footer>
+        <p class="fotterp">Alriight Reserved by @samiunjannat</p>
+       
+    </footer>
+    <!---reload-->
+    <!---script-->
+    <script>
+        var i = 0;
+        var txt = 'Hi! I am samiun jannat. I am from Bangladesh.My viallage name is pongdarikal, Thana:tarakanda ,Upazilla:fulpur ,Zilla: Mymensingh.My father name is Nazrul Islam and My mothers Name is Mahmuda Khatun Hena. I am a wordpress Developer. Feel Free to contact anytime at +8801785020024';
+        var speed = 50;
+        
+        function typeWriter() {
+          if (i < txt.length) {
+            document.getElementById("demo").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+          }
+        }
+        </script>
+        
+ </div>
+</body>
+</html>
